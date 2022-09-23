@@ -76,6 +76,38 @@ Features:
 - installation on Docker or other
 - latest release 2022 year
 - possibility of monitoring many pages at once(may be)
+- Adding new variables is recommended only through the web interface (which is probably not good)
+
+# 4. Upptime
+
+![Знімок екрана з 2022-09-23 16-02-00](https://user-images.githubusercontent.com/105150898/191966177-e01a80d3-98b0-46e8-b857-85a0e5234c7f.png)
+
+Upptime (https://upptime.js.org) is the open-source uptime monitor and status page, powered entirely by GitHub Actions, Issues, and Pages
+
+## Documentation 
+https://upptime.js.org/docs/
+
+# How it works
+- GitHub Actions is used as an uptime monitor
+- Every 5 minutes, a workflow visits your website to make sure it's up
+- Response time is recorded every 6 hours and committed to git
+- Graphs of response time are generated every day
+- GitHub Issues is used for incident reports
+- An issue is opened if an endpoint is down
+- People from your team are assigned to the issue
+- Incidents reports are posted as issue comments
+- Issues are locked so non-members cannot comment on them
+- Issues are closed automatically when your site comes back up
+- Slack notifications are sent on updates
+- GitHub Pages is used for the status website
+- A simple, beautiful, and accessible PWA is generated
+- Built with Svelte and Sapper
+- Fetches data from this repository using the GitHub API
+
+### Advantages and disadvantages
+- It is possible to add many urls
+- latest release 2020 year(pull request 2021 year)
+
 
 
 

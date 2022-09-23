@@ -1,4 +1,4 @@
-#####PHP Server Monitor
+#PHP Server Monitor
 
 https://github.com/phpservermon
 
@@ -17,7 +17,7 @@ http://docs.phpservermonitor.org/en/latest/
 #Documentation 
 http://docs.phpservermonitor.org/en/latest/
 
-##Advantages and disadvantages
+#Advantages and disadvantages
 + installation via docker-compose or varantfile
 + latest release 2020 year(pull request 2022 years)
-??? possibility of monitoring many pages at once 
++ possibility of monitoring many pages at once???

@@ -41,7 +41,7 @@ https://github.com/statping-ng/statping-ng/wiki
 - installation on a separate server than your site or application
 - installation on Docker Compose with Automatic SSL or 
 - latest release 2022 year
-- possibility of monitoring many pages at once(I don't have an answer, may be there? https://github.com/statping-ng/statping-ng/wiki/Bulk-Import-Services)
+- possibility of monitoring many pages at once(I don't have an answer, maybe there? https://github.com/statping-ng/statping-ng/wiki/Bulk-Import-Services)
 - The data is needed for monitoring (I didn’t find it, you probably need to install it to understand)
 
 # 3. Uptime Kuma
@@ -107,6 +107,17 @@ https://upptime.js.org/docs/
 ### Advantages and disadvantages
 - It is possible to add many urls
 - latest release 2020 year(pull request 2021 year)
+
+# Monika
+https://github.com/hyperjumptech/monika
+
+Monika is a command line application to monitor every part of your web app using a simple YAML configuration file. Get alert not only when your site is down but also when it's slow.
+
+### Advantages and disadvantage
+- Available as a docker image.
+- Monika uses a YAML file to define all the settings and configurations. You can find a sample configuration file in the repository called monika.example.yml.
+- possibility of monitoring many pages at once (may be here https://monika.hyperjump.tech/guides/examples#multiple-request)
+- latest release yesterday
 
 
 
